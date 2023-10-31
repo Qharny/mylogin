@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img, .profile-picture img {
+  height: 50px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  float: right;
+}
+

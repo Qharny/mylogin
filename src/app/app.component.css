@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  color: #fff;
 }
 
 #content {
@@ -33,7 +34,7 @@ app-header{
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: #020f2b;
+  background-color: #c9ccd1;
   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
