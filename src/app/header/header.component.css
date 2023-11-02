@@ -32,3 +32,7 @@ img{
   border-radius: 50%;
   margin-right: 10px;
 }
+li:hover{
+  background: #546ef2e1;
+  border-radius: 5px;
+}

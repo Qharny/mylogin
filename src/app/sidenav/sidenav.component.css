@@ -1,19 +1,26 @@
 /* sidenav css */
-
-.sidenav {
+:root{
+  --primary : #082b08;
+  --secondary : #fff;
+}
+.sidebar {
+  color: #fff;
   height: 100%;
   width: 200px;
   position: sticky;
   z-index: -1;
   top: 0;
   left: 0;
-  background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
-  /* padding-top: 60px; */
-  background: #fff;
-  box-shadow: 0 10px 20px 0 #00000033;
+  z-index: 1000;
+  background: var(--primary);
+  /* box-shadow: 0 10px 20px 0 #00000033; */
 }
+.sidebar_nav{
+  color: #fff;
+}
+
 li{
   list-style-type: none;
   display: inline-block;
@@ -24,5 +31,9 @@ li{
 a{
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
-
+li:hover{
+  background: #546ef2e1;
+  border-radius: 5px;
+}

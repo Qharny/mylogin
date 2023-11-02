@@ -5,6 +5,7 @@ app-header{
 }
 app-sidenav{
   grid-area: sidebar;
+  z-index: -1;
 }
 app-home{
   grid-area: main;
