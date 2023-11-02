@@ -10,7 +10,7 @@ body{
 }
 .container {
   background: #ebeadd;
-  width: 300px;
+  width: 380px;
   margin: 0 auto;
   margin-top: 10%;
   display: flex;
@@ -71,7 +71,7 @@ input:focus{
   cursor: pointer;
 }
 .btn:hover{
-  background: #000000c2;
+  background: #363535c2;
 }
 
 button[type="button"]{
