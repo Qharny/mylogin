@@ -1,1 +1,24 @@
+<!-- a page to show transactions -->
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Transactions</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Transaction ID</th>
+            <th>Amount</th>
+            <th>Transaction Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let transaction of transactions">
+            <td>{{ transaction.transactionId }}</td>
+            <td>{{ transaction.amount }}</td>
+            <td>{{ transaction.transactionDate }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
